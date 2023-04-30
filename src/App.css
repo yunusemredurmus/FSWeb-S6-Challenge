@@ -1,8 +1,64 @@
 .App {
   text-align: center;
 }
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
-/* write your parent styles in here for your App.js */
+
+.container {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding: 5px 15px;
+  border: 1px;
+  color: rgb(59, 11, 104);
+  border-color: rgba(31, 132, 221, 0);
+  background-color: rgba(99, 99, 99, 0.685);
+  border-style: solid;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.verimain {
+  display: flex;
+  justify-content: center
+}
+
+.veriler {
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.veri {
+  margin: 10px;
+}
+
+.button0 {
+  width: 10rem;
+}
+
+.veriButton {
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: white;
+}
+
+.veriDetails {
+  margin-left: 5rem;
+  color: black;
+  border: 2px;
+  border-radius: 5px;
+  border-style: solid;
+}
+
+.veriDetails p {
+  color: white;
+}
